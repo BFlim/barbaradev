@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="stylelogin.css" rel="stylesheet" />
+    <title>InfoLab Store Login</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <a href="index.html" id="home-btn"><li>Home</li></a>
+        <a href="#" id="produtos-btn"><li>Portfólio</li></a>
+        <a href="#" id="contatos-btn"><li>Contatos</li></a>
+        <a href="login.html" id="login-btn"><li>Login</li></a>
+        <a href="cadastro.html" id="inscreva-btn"><li>Criar uma conta</li></a>
+      </ul>
+    </header>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>
+          Faça o seu cadastro<br />
+          para ter acesso ao nosso site
+        </h1>
+        <img src="boneco.svg" class="left-login-image" alt="Boneco animação" />
+      </div>
+      <!--form-->
+
+      <div class="right-login">
+        <div class="card-login">
+          <h1>CADASTRO</h1>
+          <div class="textfild">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário" />
+          </div>
+          <div class="textfild">
+            <label for="nome">Email</label>
+            <input type="text" name="email" placeholder="Email" />
+          </div>
+          <div class="textfild">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Senha" />
+          </div>
+          <div class="textfild">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" placeholder="Telefone" />
+          </div>
+          <button class="btn-cad">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
